@@ -6,9 +6,9 @@ getRandomInt(1, 50);
 
 let check = function ( lineNumber,maxLength) {
   if(lineNumber.length >= maxLength) {
-     return false;
+    return false;
   }
- return true;
+  return true;
 }
-  check('panzer', 4);
-  check('cat', 4);
+check('panzer', 4);
+check('cat', 4);
