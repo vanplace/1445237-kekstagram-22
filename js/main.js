@@ -1,4 +1,4 @@
-let getRandomInt = function (min, max) {
+const getRandomInt = function (min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 getRandomInt(1, 50);
@@ -6,11 +6,9 @@ getRandomInt(1, 50);
 
 let check = function ( lineNumber,maxLength) {
   if(lineNumber.length >= maxLength) {
-     console.log('не проходит по длине');
+     return false;
   }
-  else {
- console.log('проходит по длине');
-  }
+ return true;
 }
   check('panzer', 4);
   check('cat', 4);
