@@ -4,11 +4,8 @@ const getRandomInt = function (min, max) {
 getRandomInt(1, 50);
 // https://habr.com/ru/post/312880/
 
-let check = function ( lineNumber,maxLength) {
-  if(lineNumber.length >= maxLength) {
-    return false;
-  }
-  return true;
+const check = function ( lineNumber, maxLength) {
+  return (lineNumber.length < maxLength);
 }
-check('panzer', 4);
-check('cat', 4);
+check('track', 4);
+
