@@ -32,6 +32,8 @@ const createPost = () => {
     comments: createComments(),
   };
 }
-//createPost()
+createPost()
 //console.log(createPost())
 export {createPost}
+
+
