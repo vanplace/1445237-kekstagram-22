@@ -32,8 +32,10 @@ const createPost = () => {
     comments: createComments(),
   };
 }
-createPost()
-//console.log(createPost())
-export {createPost}
+const CREAT_POST_COUNT = 16;
+const createPosts = () => new Array(CREAT_POST_COUNT).fill(null).map(() => createPost());
 
+//createPost()
+//console.log(createPost())
+export {createPost,createPosts}
 
