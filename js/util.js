@@ -36,4 +36,4 @@ const name = [
   'Семён Семёныч',
   'Серафим',
 ]
-export {DESCRIPTION, AVATAR, name, MESSAGE, mixId};
+export {IDS, DESCRIPTION, AVATAR, name, MESSAGE, mixId};
